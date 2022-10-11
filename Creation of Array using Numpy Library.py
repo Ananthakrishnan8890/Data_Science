@@ -37,7 +37,20 @@ print(a6)
 print("\n")
 
 #Create an array filled with linear sequence starting at 0 ending at 20 stepping by 2
-a7=np.arange(0,20,2)
-print=("An Array Filled with integer filled:\n")
+a8=np.arange(start=0, stop=20, step=2)
+print("An Array Filled with integer filled:\n")
+print(a8)
+print("\n")
+
+#Create an array of five value evenly spaced between 0 to 1
+a7=np.linspace(0, 1, 5)
+print("An Array of fivre values evenly spaced:\n")
 print(a7)
 print("\n")
+
+#Create an array of 3*3 evenly spaced betweeen 0 to 1
+a9=np.random.random((3,3))
+print("An Array of 3*3 evenly spaced between 0 to 1")
+print(a9)
+print("\n")
+a10=np.random.normal(0,1,(3,3))
