@@ -48,9 +48,42 @@ print("An Array of fivre values evenly spaced:\n")
 print(a7)
 print("\n")
 
-#Create an array of 3*3 evenly spaced betweeen 0 to 1
+#Create an array of 3*3 evenly spaced 
 a9=np.random.random((3,3))
-print("An Array of 3*3 evenly spaced between 0 to 1")
+print("An array of 3*3 evenly spaced:/n")
 print(a9)
 print("\n")
+
+#Create an array of 3*3 evenly spaced betweeen 0 to 1
 a10=np.random.normal(0,1,(3,3))
+print("An Array of 3*3 evenly spaced between 0 to 1")
+print(a10)
+print("\n")
+
+#Create an array of 3*3 Array of random integer in the internal [0,10]
+a11=np.random.randint(0,10,(3*3))
+print("An array of random integer from range 1 to 10:\n")
+print(a11)
+print("\n")
+
+#Create a 3*3 identity matrix
+a12=np.eye(3)
+print("3*3 Identity Matrix:\n")
+print(a12)
+print("\n")
+
+#Create an uninitiaiaized array of the integers
+a13=np.empty(3)
+print("An 3*3 Empty Array:\n")
+print(a13)
+print("\n")
+
+#Create single dimentional array, Towo Dimentional Arry and print the array, no of dimension size of each dimension, Total size Of the array
+
+np.random(0)
+
+x1=np.random.randint(0,10,size=6)
+x2=np.random.randint(0,10,size=(3,4))
+x3=np.random.randint(0,10,size=(3,4,5))
+
+print()
