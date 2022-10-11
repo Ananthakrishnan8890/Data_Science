@@ -36,8 +36,8 @@ print("An Array of 3*5 Filled With '3.14':\n")
 print(a6)
 print("\n")
 
-#Create an array filled with linear sequence starting at zero ending at 20
-a7=np.arange(0,20)
+#Create an array filled with linear sequence starting at 0 ending at 20 stepping by 2
+a7=np.arange(0,20,2)
 print=("An Array Filled with integer filled:\n")
 print(a7)
 print("\n")
