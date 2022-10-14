@@ -1,9 +1,10 @@
+from random import seed
 from turtle import shape
 import numpy as np
 
 #Create an Array
 a1=np.array([1,4,2,5,3])
-print("An  Array:\n")
+print("An Simpel Array:\n")
 print(a1)
 print("\n")
 
@@ -21,13 +22,13 @@ print("\n")
 
 #Craete a length 10 integer array filled with zeros
 a4=np.zeros(10,dtype='int')
-print("ength 10 integer array filled with zeros:\n")
+print("Length 10 integer array filled with zeros:\n")
 print(a4)
 print("\n")
 
 #Create 3×5 floating point array filled woth 1's
 a5=np.ones((3,5),dtype='int')
-print("An 3×5 floating point array filled woth 1's:\n")
+print("A 3×5 floating point array filled woth 1's:\n")
 print(a5)
 print("\n")
 
@@ -51,7 +52,7 @@ print("\n")
 
 #Create an array of 3×3 evenly spaced 
 a9=np.random.random((3,3))
-print("an array of 3×3 evenly spaced:/n")
+print("An array of 3×3 evenly spaced:\n")
 print(a9)
 print("\n")
 
@@ -62,7 +63,7 @@ print(a10)
 print("\n")
 
 #Create an array of 3×3 Array of random integer in the internal [0,10]
-a11=np.random.randint(0,10,(3×3))
+a11=np.random.randint(0,10,(3*3))
 print("An array of 3×3 Array of random integer in the internal [0,10]\n")
 print(a11)
 print("\n")
@@ -75,33 +76,33 @@ print("\n")
 
 #Create an uninitiaiaized array of the integers
 a13=np.empty(3)
-print("U      ninitiaiaized array of the integers:\n")
+print("Uninitiaiaized array of the integers:\n")
 print(a13)
 print("\n")
 
 #Create single dimentional array, Towo Dimentional Arry and print the array, no of dimension size of each dimension, Total size Of the array
 
-np.random(0)
+np.random.seed(0)
 
 x1=np.random.randint(10,size=6)
 x2=np.random.randint(10,size=(3,4))
 x3=np.random.randint(10,size=(3,4,5))
 
-print("X1 ndim", x1.ndim)
-print("X1 Shape", x2.shape)
-print("X1 Size", x1.size)
-print("X2 ndim", x1.ndim)
-print("X2 Shape", x2.shape)
-print("X2 Size", x1.size)
-print("X3 ndim", x1.ndim)
-print("X3 Shape", x2.shape)
-print("X3 Size", x1.size)
+print("\nX1 ndim", x1.ndim)
+print("\nX1 Shape", x2.shape)
+print("\nX1 Size", x1.size)
+print("\nX2 ndim", x1.ndim)
+print("\nX2 Shape", x2.shape)
+print("\nX2 Size", x1.size)
+print("\nX3 ndim", x1.ndim)
+print("\nX3 Shape", x2.shape)
+print("\nX3 Size", x1.size)
 
 #Print The datatype of the arrays
-print("Data Type", x3.dtype)
+print("\nData Type", x3.dtype)
 
 #Print the size of each array in bytes
-print("Item Size",x3.itemsize,"bytes")
+print("\nItem Size",x3.itemsize,"bytes")
 
 #Print the total size of array in bytes
-print("nbytes", x3.nbytes,"bytes")
+print("\nnbytes", x3.nbytes,"bytes")
