@@ -1,5 +1,3 @@
-from random import seed
-from turtle import shape
 import numpy as np
 
 #Create an Array
@@ -58,12 +56,12 @@ print("\n")
 
 #Create an array of 3×3 evenly spaced betweeen 0 to 1
 a10=np.random.normal(0,1,(3,3))
-print("An Array of 3×3 evenly spaced between 0 to 1")
+print("An Array of 3×3 evenly spaced between 0 to 1:\n")
 print(a10)
 print("\n")
 
 #Create an array of 3×3 Array of random integer in the internal [0,10]
-a11=np.random.randint(0,10,(3*3))
+a11=np.random.randint(0,10,(3,3))
 print("An array of 3×3 Array of random integer in the internal [0,10]\n")
 print(a11)
 print("\n")
@@ -80,7 +78,7 @@ print("Uninitiaiaized array of the integers:\n")
 print(a13)
 print("\n")
 
-#Create single dimentional array, Towo Dimentional Arry and print the array, no of dimension size of each dimension, Total size Of the array
+#Create single dimentional array, Two Dimentional Array and print the array, no of dimension size of each dimension, Total size Of the array
 
 np.random.seed(0)
 
@@ -89,14 +87,14 @@ x2=np.random.randint(10,size=(3,4))
 x3=np.random.randint(10,size=(3,4,5))
 
 print("\nX1 ndim", x1.ndim)
-print("\nX1 Shape", x2.shape)
+print("\nX1 Shape", x1.shape)
 print("\nX1 Size", x1.size)
-print("\nX2 ndim", x1.ndim)
+print("\nX2 ndim", x2.ndim)
 print("\nX2 Shape", x2.shape)
-print("\nX2 Size", x1.size)
-print("\nX3 ndim", x1.ndim)
-print("\nX3 Shape", x2.shape)
-print("\nX3 Size", x1.size)
+print("\nX2 Size", x2.size)
+print("\nX3 ndim", x3.ndim)
+print("\nX3 Shape", x3.shape)
+print("\nX3 Size", x3.size)
 
 #Print The datatype of the arrays
 print("\nData Type", x3.dtype)
