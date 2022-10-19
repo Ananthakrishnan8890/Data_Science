@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct 10 22:28:29 2022
-
-@author: Stevin
-"""
 import pandas as pd
 # Reading the CSV file
 df = pd.read_csv("E:\\iris.csv")
