@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Reading the CSV file
-df = pd.read_csv("E:\\iris.csv")
+df = pd.read_csv("iris.csv")
 print(df)
 
 # Printing top 5 rows

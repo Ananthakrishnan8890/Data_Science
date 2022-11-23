@@ -4,7 +4,6 @@ import numpy as np
 a1=np.array([1,4,2,5,3])
 print("An Simpel Array:\n")
 print(a1)
-print("\n")
 
 #Create an simple array of type "float 32"
 a2=np.array([1.1,2.3,3.6,4.8], dtype="float32")
